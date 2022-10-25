@@ -1,2 +1,9 @@
-date
-echo ZT
+#!/usr/bin/env bash
+
+# <xbar.title>Zerotier</xbar.title>
+# requires 'jq' binary, need to download/install
+# <xbar.var>string(VAR=URL=""): API key to get access to remote data.</xbar.var>
+# <xbar.var>string(VAR_TOKEN=""): API key to get access to remote data.</xbar.var>
+
+echo START
+echo "$VAR_TOKEN"
